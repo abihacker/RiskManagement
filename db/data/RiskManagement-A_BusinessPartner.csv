@@ -1,0 +1,4 @@
+BusinessPartner;Customer;Supplier;BusinessPartnerFullName;BusinessPartnerName;FirstName;LastName;BusinessPartnerCategory;Industry;BusinessPartnerIsBlocked;BusinessPartnerType;OrganizationBPName1;OrganizationBPName2;SearchTerm1;Language;CreationDate;LastChangeDate
+3270;202;1018;Nue Tech inc;Tech inc;Nue;inc;7;port;false;1001;portname;portsurname;1;EN;2026-05-28;2026-07-30
+2803;245;1403;Expo Technologies Plc;Technologie Plc;Expo;Plc;6;port;true;1001;portname;portsurname;1;EN;2026-05-29;2026-07-31
+3510;1710;374;Inlandskunde DE80;Inlandskunde;DE80;kunde;7;port;false;1001;portname;portsurname;1;EN;2026-05-30;2026-08-01
