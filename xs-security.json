@@ -28,5 +28,6 @@
       "attribute-references": []
     }
   ],
-  "authorities-inheritance": false
+  "xsappname": "RiskManagement",
+  "tenant-mode": "dedicated"
 }

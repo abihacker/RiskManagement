@@ -1,0 +1,22 @@
+general:
+  buildTool: "mta"
+
+service:
+  buildToolVersion: "MBTJ21"
+
+stages:
+  Build:
+    mavenExecuteStaticCodeChecks: false
+    karmaExecuteTests: false
+    npmExecuteLint: false
+    npmExecuteScripts: false
+
+  Additional Unit Tests:
+    karmaExecuteTests: false
+    npmExecuteScripts: false
+
+  Release:
+    cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+    cfOrg: "9309ae1dtrial"
+    cfSpace: "dev"
+    mtaDeployParameters: "-f --version-rule ALL"
